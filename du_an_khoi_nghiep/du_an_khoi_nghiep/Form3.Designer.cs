@@ -43,13 +43,19 @@
             radioButton8 = new RadioButton();
             label2 = new Label();
             label3 = new Label();
+            button3 = new Button();
+            button4 = new Button();
+            comboBox1 = new ComboBox();
+            label4 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(41, 36);
+            label1.Location = new Point(26, 27);
             label1.Name = "label1";
             label1.Size = new Size(130, 21);
             label1.TabIndex = 6;
@@ -59,7 +65,7 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton1.Location = new Point(63, 85);
+            radioButton1.Location = new Point(35, 104);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(53, 25);
             radioButton1.TabIndex = 7;
@@ -71,7 +77,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton2.Location = new Point(63, 129);
+            radioButton2.Location = new Point(35, 151);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(54, 25);
             radioButton2.TabIndex = 8;
@@ -83,7 +89,7 @@
             // 
             radioButton3.AutoSize = true;
             radioButton3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton3.Location = new Point(64, 174);
+            radioButton3.Location = new Point(36, 202);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(62, 25);
             radioButton3.TabIndex = 9;
@@ -95,7 +101,7 @@
             // 
             radioButton4.AutoSize = true;
             radioButton4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton4.Location = new Point(64, 220);
+            radioButton4.Location = new Point(35, 249);
             radioButton4.Name = "radioButton4";
             radioButton4.Size = new Size(63, 25);
             radioButton4.TabIndex = 10;
@@ -105,23 +111,26 @@
             // 
             // button1
             // 
-            button1.Location = new Point(191, 37);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(176, 25);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(75, 35);
             button1.TabIndex = 11;
             button1.Text = "Starts";
             button1.UseVisualStyleBackColor = true;
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(41, 282);
+            progressBar1.Location = new Point(27, 318);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(370, 23);
             progressBar1.TabIndex = 12;
             // 
             // button2
             // 
-            button2.Location = new Point(191, 382);
+            button2.Location = new Point(290, 369);
             button2.Name = "button2";
             button2.Size = new Size(85, 23);
             button2.TabIndex = 13;
@@ -132,54 +141,54 @@
             // 
             radioButton5.AutoSize = true;
             radioButton5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton5.Location = new Point(171, 220);
+            radioButton5.Location = new Point(143, 249);
             radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(63, 25);
+            radioButton5.Size = new Size(42, 25);
             radioButton5.TabIndex = 17;
             radioButton5.TabStop = true;
-            radioButton5.Text = "Alien";
+            radioButton5.Text = "AI";
             radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton6
             // 
             radioButton6.AutoSize = true;
             radioButton6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton6.Location = new Point(171, 174);
+            radioButton6.Location = new Point(143, 202);
             radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(62, 25);
+            radioButton6.Size = new Size(45, 25);
             radioButton6.TabIndex = 16;
             radioButton6.TabStop = true;
-            radioButton6.Text = "Baby";
+            radioButton6.Text = "Elt";
             radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton7
             // 
             radioButton7.AutoSize = true;
             radioButton7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton7.Location = new Point(170, 129);
+            radioButton7.Location = new Point(133, 151);
             radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(54, 25);
+            radioButton7.Size = new Size(73, 25);
             radioButton7.TabIndex = 15;
             radioButton7.TabStop = true;
-            radioButton7.Text = "Boy";
+            radioButton7.Text = "Anime";
             radioButton7.UseVisualStyleBackColor = true;
             // 
             // radioButton8
             // 
             radioButton8.AutoSize = true;
             radioButton8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton8.Location = new Point(170, 85);
+            radioButton8.Location = new Point(136, 104);
             radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(53, 25);
+            radioButton8.Size = new Size(70, 25);
             radioButton8.TabIndex = 14;
             radioButton8.TabStop = true;
-            radioButton8.Text = "Girl";
+            radioButton8.Text = "Robot";
             radioButton8.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(41, 324);
+            label2.Location = new Point(28, 369);
             label2.Name = "label2";
             label2.Size = new Size(28, 15);
             label2.TabIndex = 22;
@@ -188,17 +197,74 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(76, 324);
+            label3.Location = new Point(75, 369);
             label3.Name = "label3";
             label3.Size = new Size(190, 15);
             label3.TabIndex = 23;
             label3.Text = ".............................................................";
             // 
+            // button3
+            // 
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(257, 25);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 35);
+            button3.TabIndex = 24;
+            button3.Text = "Pause";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(338, 25);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 35);
+            button4.TabIndex = 25;
+            button4.Text = "Stop";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "MP3", "MP4", " WMA", "WAV", "FLAC", "AAC", "OGG", "AIFF", "ALAC" });
+            comboBox1.Location = new Point(338, 63);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(75, 25);
+            comboBox1.TabIndex = 26;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(272, 65);
+            label4.Name = "label4";
+            label4.Size = new Size(60, 21);
+            label4.TabIndex = 27;
+            label4.Text = "Format";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(232, 104);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 186);
+            pictureBox1.TabIndex = 28;
+            pictureBox1.TabStop = false;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(452, 453);
+            ClientSize = new Size(435, 423);
+            Controls.Add(pictureBox1);
+            Controls.Add(label4);
+            Controls.Add(comboBox1);
+            Controls.Add(button4);
+            Controls.Add(button3);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(radioButton5);
@@ -216,6 +282,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
             Text = "Micro Đa Năng ";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -236,5 +303,10 @@
         private RadioButton radioButton8;
         private Label label2;
         private Label label3;
+        private Button button3;
+        private Button button4;
+        private ComboBox comboBox1;
+        private Label label4;
+        private PictureBox pictureBox1;
     }
 }
