@@ -37,17 +37,16 @@
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
-            pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
             label2 = new Label();
             button1 = new Button();
             button5 = new Button();
             button6 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // comboBox2
             // 
+            comboBox2.BackColor = SystemColors.ButtonHighlight;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(33, 86);
             comboBox2.Name = "comboBox2";
@@ -57,7 +56,9 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.ButtonHighlight;
             label4.Location = new Point(29, 53);
             label4.Name = "label4";
             label4.Size = new Size(138, 21);
@@ -66,6 +67,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.BackColor = SystemColors.ButtonHighlight;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(239, 86);
             comboBox1.Name = "comboBox1";
@@ -75,7 +77,9 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.ButtonHighlight;
             label3.Location = new Point(239, 53);
             label3.Name = "label3";
             label3.Size = new Size(123, 21);
@@ -85,7 +89,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ButtonHighlight;
             label1.Location = new Point(12, 19);
             label1.Name = "label1";
             label1.Size = new Size(127, 21);
@@ -94,50 +100,56 @@
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.ButtonHighlight;
+            button4.BackgroundImage = Properties.Resources._1236412;
+            button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ButtonHighlight;
             button4.ImageAlign = ContentAlignment.MiddleLeft;
             button4.Location = new Point(241, 224);
             button4.Name = "button4";
             button4.Size = new Size(75, 29);
             button4.TabIndex = 31;
             button4.Text = "Stop";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ButtonHighlight;
+            button3.BackgroundImage = Properties.Resources._1236412;
+            button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = SystemColors.ButtonHighlight;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
             button3.Location = new Point(160, 224);
             button3.Name = "button3";
             button3.Size = new Size(75, 29);
             button3.TabIndex = 30;
             button3.Text = "Pause";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.BackgroundImage = Properties.Resources._1236412;
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.ForeColor = SystemColors.ButtonHighlight;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.Location = new Point(79, 224);
             button2.Name = "button2";
             button2.Size = new Size(75, 29);
             button2.TabIndex = 29;
             button2.Text = "Starts";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(67, 115);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(264, 92);
-            pictureBox1.TabIndex = 32;
-            pictureBox1.TabStop = false;
+            button2.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
+            textBox1.BackColor = SystemColors.ButtonHighlight;
+            textBox1.ForeColor = SystemColors.ActiveCaptionText;
             textBox1.Location = new Point(29, 282);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -147,45 +159,56 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ButtonHighlight;
             label2.Location = new Point(24, 259);
             label2.Name = "label2";
-            label2.Size = new Size(49, 20);
+            label2.Size = new Size(51, 21);
             label2.TabIndex = 34;
             label2.Text = "Select";
             // 
             // button1
             // 
+            button1.BackgroundImage = Properties.Resources._1236412;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ButtonHighlight;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(304, 420);
+            button1.Location = new Point(303, 420);
             button1.Name = "button1";
-            button1.Size = new Size(61, 23);
+            button1.Size = new Size(62, 23);
             button1.TabIndex = 37;
             button1.Text = "Delete";
             button1.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
+            button5.BackgroundImage = Properties.Resources._1236412;
+            button5.BackgroundImageLayout = ImageLayout.Stretch;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = SystemColors.ButtonHighlight;
             button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(253, 420);
+            button5.Location = new Point(252, 420);
             button5.Name = "button5";
-            button5.Size = new Size(45, 23);
+            button5.Size = new Size(46, 23);
             button5.TabIndex = 36;
             button5.Text = "Save";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
+            button6.BackgroundImage = Properties.Resources._1236412;
+            button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button6.ForeColor = SystemColors.ButtonHighlight;
             button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(202, 420);
+            button6.Location = new Point(201, 420);
             button6.Name = "button6";
-            button6.Size = new Size(45, 23);
+            button6.Size = new Size(46, 23);
             button6.TabIndex = 35;
             button6.Text = "Copy";
             button6.UseVisualStyleBackColor = true;
@@ -194,13 +217,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources._1236412;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(405, 483);
             Controls.Add(button1);
             Controls.Add(button5);
             Controls.Add(button6);
             Controls.Add(label2);
             Controls.Add(textBox1);
-            Controls.Add(pictureBox1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -212,7 +236,6 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form6";
             Text = "Micro Đa Năng ";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -227,7 +250,6 @@
         private Button button4;
         private Button button3;
         private Button button2;
-        private PictureBox pictureBox1;
         private TextBox textBox1;
         private Label label2;
         private Button button1;

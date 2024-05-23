@@ -123,16 +123,17 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(27, 318);
+            progressBar1.Location = new Point(26, 309);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(370, 23);
+            progressBar1.Size = new Size(387, 23);
             progressBar1.TabIndex = 12;
             // 
             // button2
             // 
-            button2.Location = new Point(290, 369);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(287, 346);
             button2.Name = "button2";
-            button2.Size = new Size(85, 23);
+            button2.Size = new Size(126, 38);
             button2.TabIndex = 13;
             button2.Text = "Download";
             button2.UseVisualStyleBackColor = true;
@@ -188,9 +189,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(28, 369);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(26, 363);
             label2.Name = "label2";
-            label2.Size = new Size(28, 15);
+            label2.Size = new Size(37, 21);
             label2.TabIndex = 22;
             label2.Text = "File:";
             // 
@@ -259,6 +261,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(435, 423);
             Controls.Add(pictureBox1);
             Controls.Add(label4);

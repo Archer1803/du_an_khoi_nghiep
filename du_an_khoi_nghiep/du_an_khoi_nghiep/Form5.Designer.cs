@@ -98,12 +98,15 @@
             // 
             // button1
             // 
+            button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button1.FlatStyle = FlatStyle.Popup;
             button1.Location = new Point(24, 121);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 29;
             button1.Text = "Change";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -153,6 +156,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(428, 477);
             Controls.Add(button5);
             Controls.Add(button6);

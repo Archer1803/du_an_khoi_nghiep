@@ -44,7 +44,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(30, 53);
+            label1.Location = new Point(12, 43);
             label1.Name = "label1";
             label1.Size = new Size(130, 21);
             label1.TabIndex = 7;
@@ -52,9 +52,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(30, 91);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(12, 67);
             button1.Name = "button1";
-            button1.Size = new Size(120, 44);
+            button1.Size = new Size(170, 121);
             button1.TabIndex = 8;
             button1.Text = "Voice Conversion";
             button1.UseVisualStyleBackColor = true;
@@ -63,7 +64,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(203, 53);
+            label2.Location = new Point(197, 43);
             label2.Name = "label2";
             label2.Size = new Size(151, 21);
             label2.TabIndex = 9;
@@ -71,18 +72,20 @@
             // 
             // button2
             // 
-            button2.Location = new Point(203, 91);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(197, 67);
             button2.Name = "button2";
-            button2.Size = new Size(151, 44);
+            button2.Size = new Size(188, 121);
             button2.TabIndex = 10;
             button2.Text = "Pronunciation Timer";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(212, 266);
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Location = new Point(197, 242);
             button3.Name = "button3";
-            button3.Size = new Size(151, 44);
+            button3.Size = new Size(188, 119);
             button3.TabIndex = 14;
             button3.Text = "Convert audio to text";
             button3.UseVisualStyleBackColor = true;
@@ -91,7 +94,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(212, 233);
+            label3.Location = new Point(197, 218);
             label3.Name = "label3";
             label3.Size = new Size(155, 21);
             label3.TabIndex = 13;
@@ -99,9 +102,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(30, 266);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Location = new Point(15, 242);
             button4.Name = "button4";
-            button4.Size = new Size(120, 44);
+            button4.Size = new Size(167, 119);
             button4.TabIndex = 12;
             button4.Text = "Voice translation";
             button4.UseVisualStyleBackColor = true;
@@ -110,7 +114,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(30, 233);
+            label4.Location = new Point(15, 218);
             label4.Name = "label4";
             label4.Size = new Size(127, 21);
             label4.TabIndex = 11;
@@ -118,9 +122,10 @@
             // 
             // button5
             // 
-            button5.Location = new Point(310, 391);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Location = new Point(197, 376);
             button5.Name = "button5";
-            button5.Size = new Size(72, 34);
+            button5.Size = new Size(188, 25);
             button5.TabIndex = 15;
             button5.Text = "Exit";
             button5.UseVisualStyleBackColor = true;
@@ -129,7 +134,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(412, 465);
+            ClientSize = new Size(402, 444);
             Controls.Add(button5);
             Controls.Add(button3);
             Controls.Add(label3);

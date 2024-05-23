@@ -63,6 +63,16 @@ namespace du_an_khoi_nghiep.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1236412 {
+            get {
+                object obj = ResourceManager.GetObject("1236412", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _96fce642d71777492e06 {
             get {
                 object obj = ResourceManager.GetObject("96fce642d71777492e06", resourceCulture);

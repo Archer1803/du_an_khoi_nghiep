@@ -48,17 +48,24 @@
             // 
             // button1
             // 
+            button1.AccessibleRole = AccessibleRole.ScrollBar;
+            button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button1.BackColor = Color.Transparent;
+            button1.BackgroundImageLayout = ImageLayout.Zoom;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.ForeColor = SystemColors.ControlText;
             button1.Location = new Point(79, 267);
             button1.Name = "button1";
             button1.Size = new Size(251, 58);
             button1.TabIndex = 1;
             button1.Text = "Kết nối Bluetooth";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(406, 409);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
