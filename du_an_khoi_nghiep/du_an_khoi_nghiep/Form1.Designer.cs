@@ -39,9 +39,9 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Image = Properties.Resources.micro;
             pictureBox1.InitialImage = null;
-            pictureBox1.Location = new Point(79, 30);
+            pictureBox1.Location = new Point(39, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(251, 231);
+            pictureBox1.Size = new Size(320, 271);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -52,11 +52,11 @@
             button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             button1.BackColor = Color.Transparent;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(79, 267);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(39, 289);
             button1.Name = "button1";
-            button1.Size = new Size(251, 58);
+            button1.Size = new Size(320, 73);
             button1.TabIndex = 1;
             button1.Text = "Kết nối Bluetooth";
             button1.UseVisualStyleBackColor = false;
@@ -66,12 +66,16 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(406, 409);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(400, 437);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
+            ForeColor = SystemColors.Control;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Micro Đa Năng ";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

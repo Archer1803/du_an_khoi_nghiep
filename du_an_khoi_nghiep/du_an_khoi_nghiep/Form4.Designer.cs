@@ -45,7 +45,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.Bisque;
+            label4.ForeColor = SystemColors.ActiveCaptionText;
             label4.Location = new Point(22, 30);
             label4.Name = "label4";
             label4.Size = new Size(50, 21);
@@ -57,7 +57,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.ForeColor = SystemColors.ActiveCaptionText;
             label1.Location = new Point(175, 299);
             label1.Name = "label1";
             label1.Size = new Size(80, 25);
@@ -66,11 +66,11 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Navy;
-            button4.BackgroundImage = Properties.Resources._1236412;
+            button4.BackColor = Color.Transparent;
             button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ActiveCaptionText;
             button4.ImageAlign = ContentAlignment.BottomRight;
             button4.Location = new Point(22, 341);
             button4.Name = "button4";
@@ -81,11 +81,11 @@
             // 
             // button5
             // 
-            button5.BackColor = Color.Navy;
-            button5.BackgroundImage = Properties.Resources._1236412;
+            button5.BackColor = Color.Transparent;
             button5.BackgroundImageLayout = ImageLayout.Stretch;
             button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = SystemColors.ActiveCaptionText;
             button5.ImageAlign = ContentAlignment.BottomRight;
             button5.Location = new Point(219, 341);
             button5.Name = "button5";
@@ -96,12 +96,11 @@
             // 
             // button6
             // 
-            button6.BackColor = Color.Navy;
-            button6.BackgroundImage = Properties.Resources._1236412;
+            button6.BackColor = Color.Transparent;
             button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.ForeColor = SystemColors.ButtonHighlight;
+            button6.ForeColor = SystemColors.ActiveCaptionText;
             button6.ImageAlign = ContentAlignment.MiddleLeft;
             button6.Location = new Point(303, 28);
             button6.Name = "button6";
@@ -112,12 +111,11 @@
             // 
             // button7
             // 
-            button7.BackColor = Color.Navy;
-            button7.BackgroundImage = Properties.Resources._1236412;
+            button7.BackColor = Color.Transparent;
             button7.BackgroundImageLayout = ImageLayout.Stretch;
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.ForeColor = SystemColors.ButtonHighlight;
+            button7.ForeColor = SystemColors.ActiveCaptionText;
             button7.ImageAlign = ContentAlignment.MiddleLeft;
             button7.Location = new Point(197, 28);
             button7.Name = "button7";
@@ -128,12 +126,11 @@
             // 
             // button8
             // 
-            button8.BackColor = Color.Navy;
-            button8.BackgroundImage = Properties.Resources._1236412;
+            button8.BackColor = Color.Transparent;
             button8.BackgroundImageLayout = ImageLayout.Stretch;
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.ForeColor = SystemColors.ButtonHighlight;
+            button8.ForeColor = SystemColors.ActiveCaptionText;
             button8.Location = new Point(91, 28);
             button8.Name = "button8";
             button8.Size = new Size(100, 27);
@@ -146,7 +143,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            BackgroundImage = Properties.Resources._1236412;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(422, 444);
             Controls.Add(button6);

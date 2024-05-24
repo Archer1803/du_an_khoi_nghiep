@@ -6,5 +6,10 @@ namespace du_an_khoi_nghiep
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
