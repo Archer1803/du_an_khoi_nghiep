@@ -16,5 +16,25 @@ namespace du_an_khoi_nghiep
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("tự động phát khi dịch xong ");
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
