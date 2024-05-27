@@ -54,7 +54,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Transparent;
+            button1.BackColor = Color.FromArgb(128, 255, 128);
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = SystemColors.ActiveCaptionText;
             button1.Location = new Point(12, 67);
@@ -78,7 +78,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Transparent;
+            button2.BackColor = Color.FromArgb(128, 128, 255);
             button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = SystemColors.ActiveCaptionText;
             button2.Location = new Point(197, 67);
@@ -90,7 +90,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Transparent;
+            button3.BackColor = Color.FromArgb(255, 128, 128);
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = SystemColors.ActiveCaptionText;
             button3.Location = new Point(197, 242);
@@ -114,7 +114,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Transparent;
+            button4.BackColor = Color.FromArgb(255, 255, 128);
             button4.FlatStyle = FlatStyle.Flat;
             button4.ForeColor = SystemColors.ActiveCaptionText;
             button4.Location = new Point(15, 242);
@@ -138,7 +138,7 @@
             // 
             // button5
             // 
-            button5.BackColor = Color.Transparent;
+            button5.BackColor = Color.FromArgb(192, 192, 255);
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = SystemColors.ActiveCaptionText;
             button5.Location = new Point(197, 376);

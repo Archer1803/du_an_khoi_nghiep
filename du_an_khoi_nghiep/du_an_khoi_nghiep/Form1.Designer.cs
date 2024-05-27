@@ -50,13 +50,12 @@
             // 
             button1.AccessibleRole = AccessibleRole.ScrollBar;
             button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button1.BackColor = Color.Transparent;
+            button1.BackColor = Color.FromArgb(255, 255, 128);
             button1.BackgroundImageLayout = ImageLayout.Zoom;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(39, 289);
             button1.Name = "button1";
-            button1.Size = new Size(320, 73);
+            button1.Size = new Size(320, 43);
             button1.TabIndex = 1;
             button1.Text = "Kết nối Bluetooth";
             button1.UseVisualStyleBackColor = false;
@@ -68,7 +67,7 @@
             BackColor = SystemColors.ButtonHighlight;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(400, 437);
+            ClientSize = new Size(395, 420);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             ForeColor = SystemColors.Control;

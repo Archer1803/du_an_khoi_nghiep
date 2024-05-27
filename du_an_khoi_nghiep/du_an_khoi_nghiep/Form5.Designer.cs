@@ -62,7 +62,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Transparent;
+            button4.BackColor = Color.FromArgb(128, 255, 128);
             button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
@@ -76,7 +76,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Transparent;
+            button3.BackColor = Color.FromArgb(255, 255, 128);
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
@@ -90,7 +90,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Transparent;
+            button2.BackColor = Color.FromArgb(255, 128, 128);
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
@@ -105,20 +105,20 @@
             // button1
             // 
             button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button1.BackColor = Color.Transparent;
+            button1.BackColor = Color.Silver;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(24, 121);
+            button1.Location = new Point(24, 117);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(78, 27);
             button1.TabIndex = 29;
             button1.Text = "Change";
             button1.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
-            button5.BackColor = Color.Transparent;
+            button5.BackColor = Color.FromArgb(255, 128, 255);
             button5.BackgroundImageLayout = ImageLayout.Stretch;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
@@ -133,7 +133,7 @@
             // 
             // button6
             // 
-            button6.BackColor = Color.Transparent;
+            button6.BackColor = Color.FromArgb(128, 128, 255);
             button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
@@ -148,7 +148,7 @@
             // 
             // button7
             // 
-            button7.BackColor = Color.Transparent;
+            button7.BackColor = Color.FromArgb(128, 255, 255);
             button7.BackgroundImageLayout = ImageLayout.Stretch;
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
