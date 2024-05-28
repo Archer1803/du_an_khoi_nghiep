@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IlH7yYZOHcDYL1JZUr9GTHZ2haKql9F2t2/nSE9VTz1k+U3GW5lVn6dlMaA2HI0S1pjFwtWBTPwtX3GFAHwpjA==",
+  "dgSpecHash": "uSxPD63tuJLMKuRB32KS41DsBw/jOgLKZLWqmI7qR9f5U4D1uSyNNaPLww9smOwoOmYZw7MrdsDWLnJRXh3uWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\du_an_khoi_nghiep\\du_an_khoi_nghiep\\du_an_khoi_nghiep\\du_an_khoi_nghiep.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\du_an_khoi_nghiep\\du_an_khoi_nghiep\\du_an_khoi_nghiep\\du_an_khoi_nghiep.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
